@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="037ca312-f9b0-439c-a471-60ef94dad3c8" name="Default Changelist" comment="" />
+    <list default="true" id="037ca312-f9b0-439c-a471-60ef94dad3c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/mainapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/mainapp/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XOaVLp6DpwDNUC4PLRcF1bUEa7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,8 +23,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mainapp/assets/images" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/TechAcademyRepos/The Tech Academy Basic Python Projects/TkInter/GUI Drill/guidrill.py" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.ChangelistConflict" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -28,7 +36,7 @@
     </key>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Ryan Wilson\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,6 +48,44 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Inspections" timestamp="1580924080318">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -49,13 +95,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Python/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1580920041395" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1580932099781">
+    <state x="709" y="357" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1581016862568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1580932099781" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580932005000">
+    <state x="709" y="357" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581016862568" />
+    <state x="614" y="115" key="CommitChangelistDialog2" timestamp="1581020520282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1580932005000" />
+    <state x="614" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581020520282" />
+    <state x="900" y="252" width="440" height="490" key="FileChooserDialogImpl" timestamp="1581019788721">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="900" y="252" width="440" height="490" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581019788721" />
+    <state x="604" y="164" width="487" height="423" key="Github.ShareDialog" timestamp="1581017142135">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="604" y="164" width="487" height="423" key="Github.ShareDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581017142135" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1581016793151">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581016793151" />
+    <state x="550" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581020542925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="550" y="190" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581020542925" />
+    <state x="475" y="170" width="892" height="591" key="com.intellij.ide.util.TipDialog" timestamp="1581019725152">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="475" y="170" width="892" height="591" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581019725152" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581016692844">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581016692844" />
   </component>
 </project>
