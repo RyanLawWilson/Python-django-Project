@@ -1,4 +1,5 @@
 # Views show the user stuff based on the HTML you write
+# testing
 
 from django.http import HttpResponse
 from django.shortcuts import render
