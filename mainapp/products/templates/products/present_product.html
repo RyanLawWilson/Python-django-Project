@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}Royal Hotels{% endblock %}
+
+{% block header %}Product Details{% endblock %}
+
+{% block content %}
+
+    <div class="admin_panel">
+        <form name="productForm" method="POST" action="../details/">
+            <table>
+                {% csrf_token %}
+                {{ form.non_field_errors }}
+                {{ form.as_table }}
+            </table>
+
+            <div class="frmBtn_container">
+                <input type="submit">
+                <div class="frmBtn_container">
+
+                    <!--
+                        ===== Problem 1 - solved =====
+                        For some reason, doing form.pk does absolutely nothing.  So to get the correct
+                        primary key, I just passed an additional dictionary reference to this file:
+                        the primary key that was passed from products_page.html
+
+                        ===== Problem 2 - solved | eliminates need to solve problem 1 =====
+                        After solving problem 1, clicking DELETE would replace /{{ pk }}/details/ with
+                        /{{ pk }}/{{ pk }}/delete.  I don't know why this is happening.  To solve it
+                        I got rid of {{ pk }} altogether.
+                    -->
+
+                    <button class="btn"><a href="../delete/">DELETE</a></button>
+                    <button class="btn"><a href="{% url 'admin_console' %}">CANCEL</a></button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+
+{% endblock %}
+
+
+
+

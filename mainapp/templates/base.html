@@ -1,0 +1,36 @@
+<!-- Django 3 calls static files with this -->
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="en" class="bg_img">
+	<head>
+	    <meta charset="UTF-8">
+        <!--
+            Using HTML template tags.  The purpose for these tags is to be able
+            to dynamically change portions of the web page by calling the tag.
+         -->
+		<title>{% block title %}{% endblock %}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/layout.css' %}">
+	</head>
+    <body>
+        <div class="page_container">
+
+            <!-- Gets the code from navbar.html and places it here -->
+            {% include "navbar.html" %}
+
+            <header class="header-title">
+                <h1>{% block header %}{% endblock %}</h1>
+		    </header>
+
+            {% block content %}{% endblock %}
+
+        </div>
+
+        <!-- Gets the code from footer.html and places it here -->
+        {% include "footer.html" %}
+    </body>
+</html>
